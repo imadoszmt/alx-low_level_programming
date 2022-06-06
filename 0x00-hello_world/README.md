@@ -16,3 +16,5 @@ This project is part of Alx-Holberton software engineering program, aims to illu
 4-puts.c: C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Using 'puts' function and returning value of 0.
 
 5-printf.c: a C program that prints exactly "with proper grammar, but the outcome is a piece of art,"using 'printf' function, followed by a new line and return 0.
+
+6-size.c: a C program that prints the size of various types on the computer it is compiled and run on.
