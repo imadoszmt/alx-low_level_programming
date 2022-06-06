@@ -20,3 +20,5 @@ This project is part of Alx-Holberton software engineering program, aims to illu
 6-size.c: a C program that prints the size of various types on the computer it is compiled and run on.
 
 100-intel: a script that generates the assembly code (Intel syntax) of a C file code stored in $CFILE and save it in an output file with same name if C file and .s extension.
+
+101-quote.c: a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. without using printf() and puts() functions and return value is 1.
