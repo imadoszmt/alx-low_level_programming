@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char *string = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-        putchar (*string);
+	char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+        putchar (*s);
 	return (1);
 }
