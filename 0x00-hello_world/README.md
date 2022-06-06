@@ -12,3 +12,5 @@ This project is part of Alx-Holberton software engineering program, aims to illu
 2-assembler: a script that generates the assembly code of a C code of a file stored in $CFILE variable and save it in an output file.The output file has the same name as as the C file with the extension .s (Assembly file) instead of .c (C file).
 
 3-name: a script that compiles a C file stored in $CFILE variable and creates an executable named 'cisfun'.
+
+4-puts.c: C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Using 'puts' function and returning value of 0.
