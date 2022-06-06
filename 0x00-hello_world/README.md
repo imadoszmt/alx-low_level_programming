@@ -18,3 +18,5 @@ This project is part of Alx-Holberton software engineering program, aims to illu
 5-printf.c: a C program that prints exactly "with proper grammar, but the outcome is a piece of art,"using 'printf' function, followed by a new line and return 0.
 
 6-size.c: a C program that prints the size of various types on the computer it is compiled and run on.
+
+100-intel: a script that generates the assembly code (Intel syntax) of a C file code stored in $CFILE and save it in an output file with same name if C file and .s extension.
