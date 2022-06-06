@@ -10,3 +10,5 @@ This project is part of Alx-Holberton software engineering program, aims to illu
 1-compiler: a script that compiles a C file stored in $CFILE but does not link. The output file will named same as the C file, but with extension .o (object file) instead of .c .
 
 2-assembler: a script that generates the assembly code of a C code of a file stored in $CFILE variable and save it in an output file.The output file has the same name as as the C file with the extension .s (Assembly file) instead of .c (C file).
+
+3-name: a script that compiles a C file stored in $CFILE variable and creates an executable named 'cisfun'.
