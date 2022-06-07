@@ -8,11 +8,12 @@
 
 int main (void)
 {
-	char ch,
+	char ch;
 	
-	for ch in [a..z]
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{	
 		putchar (ch);
-
+	}
 
 	return (0);
 }
