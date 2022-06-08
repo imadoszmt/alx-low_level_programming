@@ -3,7 +3,7 @@
 /**
  * main - printing hexadecimal in lowercase
  *
- * Return: 0 (Success) 
+ * Return: 0 (Success)
  */
 
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar (ch);	
+		putchar (ch);
 	}
 	putchar ('\n');
 	return (0);
