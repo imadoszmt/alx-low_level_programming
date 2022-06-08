@@ -12,7 +12,8 @@ int main (void)
 
 	for (num = 0; num <= 9; num++)
 	{
-		printf(num'\n');
+		printf("%d", num);
 	}
+	printf("\n");
 	return (0);
 }
