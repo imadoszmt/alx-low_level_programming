@@ -28,13 +28,13 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				
+		
 				}
 
 				}
-			
+
 			}
-		
+
 		}
 	}
 	putchar('\n');
