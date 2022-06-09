@@ -3,6 +3,7 @@
 /**
  * main - printing combinations of 3 different numbers.
  *
+ * Return: 0 (Success)
  */
 
 int main(void)
@@ -21,19 +22,20 @@ int main(void)
 					putchar(num1);
 					putchar(num2);
 
-					{
-						if (num != 7)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
+				{
+				if (num != '7')
+				{
+					putchar(',');
+					putchar(' ');
+				}
+				
 				}
 
-			}
+				}
 			
-		}
+			}
 		
+		}
 	}
 	putchar('\n');
 	return (0);
