@@ -21,7 +21,7 @@ int main(void)
 				putchar(num1);
 
 				{
-					if (num != '8');
+					if (num != '8')
 					{
 		        			putchar(',');
 						putchar(' ' );
