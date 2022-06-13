@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	char = "_putchar";
-
-	for ( c = 0, c != 'NULL', c++)
+	char str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	
+	for ( ch = 0, str[ch] <=7 'NULL', ch++)
 	{
-		_putchar(c);
+		_putchar(str[ch]);
 	}
 	
 	putchar('\n');
