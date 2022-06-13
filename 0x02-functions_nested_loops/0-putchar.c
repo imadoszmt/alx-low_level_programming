@@ -9,8 +9,8 @@
 int main(void)
 {
 	char str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	
-	for (int ch = 0, ch <=7 , ch++)
+	int ch;
+	for (ch = 0; ch <=7; ch++)
 	{
 		_putchar(str[ch]);
 	}
