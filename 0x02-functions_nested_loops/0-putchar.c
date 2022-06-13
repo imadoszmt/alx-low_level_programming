@@ -10,7 +10,7 @@ int main(void)
 {
 	char str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	
-	for ( ch = 0, str[ch] <=7 'NULL', ch++)
+	for ( ch = 0, str[ch] <=7 , ch++)
 	{
 		_putchar(str[ch]);
 	}
