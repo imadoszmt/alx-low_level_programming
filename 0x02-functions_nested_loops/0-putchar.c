@@ -1,4 +1,4 @@
-#include <holbertonschool.h>
+#include <main.h>
 
 /**
  * main - a program that prints "_putchar".
