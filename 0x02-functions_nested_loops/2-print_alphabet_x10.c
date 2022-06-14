@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10: printing lowercases "10 times", followed by "new ligne".
+ * print_alphabet_x10 - printing lowercases "10 times", followed by "new ligne".
  *
  * Return: void
  */
