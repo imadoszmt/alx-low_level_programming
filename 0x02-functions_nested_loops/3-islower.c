@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * islower - checking if characters is lowercase.
+ * _islower - checking if characters is lowercase.
+ * c: parameter type "int".
  *
  * Return: 1 (if lowercase), 0 (otherwise)
  */
@@ -12,7 +13,7 @@ int _islower(int c)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if ((c = ch))
+		if (c == ch)
 		{
 			return (1);
 		}
