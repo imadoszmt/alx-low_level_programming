@@ -9,7 +9,7 @@
 
 int _islower(int c)
 {
-	int ch = 'a';
+	int ch ;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
@@ -22,5 +22,5 @@ int _islower(int c)
 			return (0);
 		}
 	}
-	return (0);
+	_putchar('\n');
 }
