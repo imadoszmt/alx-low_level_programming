@@ -2,7 +2,7 @@
 
 /**
  * _abs - A function that print the absolute value of an integer.
- * Parameter: Type integer.
+ * @n: Parameter type integer.
  * Return: 0 (Success).
  */
 
@@ -13,7 +13,7 @@ int _abs(int n)
 	{
 		int c;
 
-		c = n* (-1);
+		c = n * (-1);
 		return (c);
 	}
 	else
