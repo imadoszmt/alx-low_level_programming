@@ -15,23 +15,24 @@ void jack_bauer(void)
 		for (min1 = 0; min1 <= 9; min1++)
 		{
 
+			if (min1 != 2 && min0 != 3 )
+			{	
 			for (sec0 = 0; sec0 <= 5; sec0++)
 			{
 
 				for (sec1 = 0; sec1 <= 9; sec1++)
-				{
-					if ((min0 = 2) && (min1 = 4))
-						break;
-					{
+				{						
+					
 					_putchar('0'+ min0);
 					_putchar('0'+ min1);
 					_putchar(':');
 					_putchar('0'+ sec0);
 					_putchar('0'+ sec1);
 					_putchar('\n');
-					}
+					
 				}
 
+			}
 			}
 
 		}
