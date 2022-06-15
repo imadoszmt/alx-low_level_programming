@@ -24,7 +24,7 @@ void jack_bauer(void)
 
 				for (sec1 = 1; sec1 <= 9; sec1++)
 				{
-					printf("%d", sec1);
+					printf("%d\n", sec1);
 				}
 
 			}
