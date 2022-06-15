@@ -16,11 +16,11 @@ int _abs(int)
 		int c;
 
 		c = n* (-1);
-		printf(c);
+		printf("%d",c);
 	}
 	else
 	{
-		printf(n);
+		printf("%d",n);
 	}
 	return (0);
 }
