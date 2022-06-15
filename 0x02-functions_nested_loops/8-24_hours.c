@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * jack_bauer - A function that print every minute of the day.
@@ -21,12 +20,12 @@ void jack_bauer(void)
 
 				for (sec1 = 0; sec1 <= 9; sec1++)
 				{
-					if ((min0 == 2) && (min1 == 4))
-						break;
-					printf("%d", min0);
-					printf("%d:", min1);
-					printf("%d", sec0);
-					printf("%d\n", sec1);
+					if ((min0 != 2) && (min1 != 4))
+
+					_putchar('0', min0);
+					_putchar('0', min1);
+					_putchar('0', sec0);
+					_putchar('0', sec1);
 				}
 
 			}
