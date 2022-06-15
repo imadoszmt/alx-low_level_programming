@@ -21,7 +21,7 @@ void jack_bauer(void)
 
 				for (sec1 = 0; sec1 <= 9; sec1++)
 				{
-					if ((min0 == 2) && (min1 == 4)
+					if ((min0 == 2) && (min1 == 4))
 						break;
 					printf("%d", min0);
 					printf("%d:", min1);
