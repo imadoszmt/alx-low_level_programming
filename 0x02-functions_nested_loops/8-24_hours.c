@@ -22,10 +22,10 @@ void jack_bauer(void)
 				{
 					if ((min0 != 2) && (min1 != 4))
 
-					_putchar('0', min0);
-					_putchar('0', min1);
-					_putchar('0', sec0);
-					_putchar('0', sec1);
+					_putchar('0'+ min0);
+					_putchar('0'+ min1);
+					_putchar('0'+ sec0);
+					_putchar('0'+ sec1);
 				}
 
 			}
