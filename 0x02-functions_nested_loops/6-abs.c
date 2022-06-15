@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _abs - A function that print the absolute value of an integer.
@@ -15,12 +14,11 @@ int _abs(int n)
 		int c;
 
 		c = n* (-1);
-		printf("%d",c);
+		return (c);
 	}
 	else
 	{
-		printf("%d",n);
+		return (n);
 	}
-	break;
-return (0);	
+
 }
