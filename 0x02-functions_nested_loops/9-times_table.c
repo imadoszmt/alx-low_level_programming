@@ -9,12 +9,13 @@
 void times_table(void)
 {
 	int n, n1;
-	int N = (n * n1);
+	int N;
 
 	for (n = 0; n <= 9; n++)
 	{
 		for (n1 = 0; n1 <= 9; n1++)
 		{
+			N = n * n1;
 
 			if (n1 == 0)
 			{
