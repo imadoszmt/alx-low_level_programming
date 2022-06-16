@@ -42,7 +42,7 @@ void times_table(void)
 											_putchar('0' + n3);
 											_putchar(',');
 											_putchar(' ');
-											_purchar('0' + n4);
+											_putchar('0' + n4);
 											_putchar(',');
 											_putchar(' ');
 											_putchar('0' + n5);
