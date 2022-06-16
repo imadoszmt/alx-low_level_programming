@@ -9,7 +9,7 @@
 void times_table(void)
 {
 	int n, n1;
-	int N = n * n1;
+	int N = (n * n1);
 
 	for (n = 0; n <= 9; n++)
 	{
