@@ -2,7 +2,8 @@
 
 /**
  * add - A function that adds two integers and return the result.
- * @n: Parameter type integer.
+ * @n: First parameter type integer.
+ * @n1: Second parameter type integer.
  * Return: integer.
  */
 
