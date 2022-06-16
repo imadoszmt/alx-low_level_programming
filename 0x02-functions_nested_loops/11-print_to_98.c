@@ -10,26 +10,26 @@
 void print_to_98(int n)
 {
 	
-	for (n; n <= 98; n++)
+	for (n = 0; n <= 98; n++)
 	{
 		
 		printf("%d", n);
 
-		if ((n / 10 != 9) && (n % 10 = 8))
+		if ((n / 10 != 9) && (n % 10 != 8))
 		{
-			printf(',');
-			printf(' ');
+			_putchar(',');
+			_putchar(' ');
 		}
 
 	}
-	for (n; n >= 98; n--)
+	for (n = 0; n >= 98; n--)
 	{
 		printf("%d", n);
 
 		if ((n / 10 != 9) && (n % 10 = 8))
 		{
-			printf(',');
-			printf(' ');
+			_putchar(',');
+			_putchar(' ');
 		}
 	}
 }
