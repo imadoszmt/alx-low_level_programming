@@ -14,7 +14,7 @@ void print_times_table(int n)
 		{
 			for (n2 = 0; n2 <= n; n2++)
 			{
-				N = n1 * n2;}
+				N = n1 * n2;
 				if (N < 10)
 				{
 					_putchar('0' + N);
