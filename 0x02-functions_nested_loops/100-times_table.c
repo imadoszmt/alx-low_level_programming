@@ -11,16 +11,16 @@ void print_times_table(int n)
 	int n1, n2;
 	int N;
 
-	for (n1 = 0; n1 <= n; n++)
+	for (n1 = 0; n1 <= n; n1++)
 	{
 		for (n2 = 0; n2 <= n; n2++)
 		{
-			N = n * n1;
+			N = n1 * n2;
 			if (n2 == 0)
 			{
 				_putchar('0' + N);
 			}
-			else if (N <= n)
+			else if ((N <= n) || (N / 10 == 0 && N % 10 == N))
 			{
 				_putchar(',');
 				_putchar(' ');
