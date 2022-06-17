@@ -8,19 +8,19 @@
 
 void print_times_table(int n)
 {
-	int n1;
+	int n1, n2;
 	int N;
 
 	if ((n != 0) || (n != 15))
 	{
-		for (n = 0; n <= n; n++)
+		for (n1 = 0; n1 <= n; n++)
 		{
-			for (n1 = 0; n1 <= n; n1++)
+			for (n2 = 0; n2 <= n; n2++)
 			{
 				N = n * n1;
-				if (n1 == 0)
+				if (n2 == 0)
 				{
-					_putchar('0' + N)
+					_putchar('0' + N);
 				}
 				else if (N <= n)
 				{
