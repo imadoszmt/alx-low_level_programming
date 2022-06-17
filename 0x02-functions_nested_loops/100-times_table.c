@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_times_table - A function that print times table of "n".
  * @n: A parameter type integer.
  * Return: Void.
  */
-
 void print_times_table(int n)
 {
 	int n1, n2;
