@@ -18,7 +18,7 @@ void print_to_98(int n)
 			printf("%d, ", N);
 		}
 	}
-	else (n >= 98)
+	else (n >= 98);
 	{
 		for (N = n; N >= 98; N--)
 		{
