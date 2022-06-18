@@ -18,13 +18,13 @@ int main(void)
 		{
 			f2 = f2 + f1;
 			f1 = f2 - f1;
-			printf("%ld, ", f2);
+			printf("%lu, ", f2);
 		}
 		else if (n == 98)
 		{
 			f2 = f2 + f1;
 			f1 = f2 - f1;
-			printf("%ld", f2);
+			printf("%lu", f2);
 		}
 	}
 	printf("\n");
