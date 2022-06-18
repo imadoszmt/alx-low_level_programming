@@ -18,13 +18,13 @@ int main(void)
 		{
 			f2 = f2 + f1;
 			f1 = f2 - f1;
-			printf("%d, ", f2);
+			printf("%ld, ", f2);
 		}
 		else if (n == 49)
 		{
 			f2 = f2 + f1;
 			f1 = f2 - f1;
-			printf("%d", f2);
+			printf("%ld", f2);
 		}
 	}
 	printf("\n");
