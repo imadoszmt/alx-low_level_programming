@@ -9,14 +9,23 @@
 int main(void)
 {
 	int f1 = 0;
-	int f2 = 1;
+	unsigned int f2 = 1;
 	int n;
 
 	for (n = 0; n <= 49; n++)
 	{
-		f2 = f2 + f1;
-		f1 = f2 - f1;
-		printf("%d, ", f2);
+		if (n <=48)
+		{
+			f2 = f2 + f1;
+			f1 = f2 - f1;
+			printf("%d, ", f2);
+		}
+		else if (n == 49)
+		{
+			f2 = f2 + f1;
+			f1 = f2 - f1;
+			printf("%d", f2);
+		}
 	}
 	printf("\n");
 	return (0);
