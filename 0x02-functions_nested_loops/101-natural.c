@@ -12,11 +12,14 @@ int main(void)
 	int sum;
 
 	sum = 0;
-	for (n = 3; n < 1024; n += 3)
+	for (n = 0; n < 1024; n ++)
 	{
-		n1 = n;
-		sum = sum + n1;
+		if ((n % 3) || (n % 5))
+		{
+			sum = sum + n;
+		}
 	}
 	printf("%d\n", sum);
+
 return (0);
 }
