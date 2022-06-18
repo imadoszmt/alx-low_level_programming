@@ -10,8 +10,9 @@ int main(void)
 {
 	int f1 = 0;
 	int f2 = 1;
+	int n;
 
-	for (int n = 0; n <= 49; n++)
+	for (n = 0; n <= 49; n++)
 	{
 		f2 = f2 + f1;
 		f1 = f2 - f1;
