@@ -13,7 +13,8 @@ int main(void)
 
 	for (n = 3; n < 1024; n += 3)
 	{
-		sum = n
+		sum = n;
 	}
 	printf("%d\n", sum);
+return (0);
 }
