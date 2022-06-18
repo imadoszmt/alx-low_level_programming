@@ -20,9 +20,8 @@ int main(void)
 			sum = sum + f2;
 			printf("%ld", sum);
 		}
-		printf("\n");
-		return (0);
+		
 	}
-
-
+	printf("\n");
+	return (0);
 }
