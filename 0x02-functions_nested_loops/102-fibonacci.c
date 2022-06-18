@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	unsigned int f1 = 0;
-	unsigned int f2 = 1;
+	unsigned long int f1 = 0;
+	unsigned long int f2 = 1;
 	int n;
 
 	for (n = 0; n <= 49; n++)
 	{
-		if (n <=48)
+		if (n <= 48)
 		{
 			f2 = f2 + f1;
 			f1 = f2 - f1;
