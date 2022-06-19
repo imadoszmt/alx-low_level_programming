@@ -10,7 +10,7 @@ int main(void)
 {
 	unsigned long f1 = 0;
 	unsigned long f2 = 1;
-	int n;
+	int n, excess;
 	unsigned long f1_part1, f1_part2, f2_part1, f2_part2, f12_part1, f12_part2;
 	
 
@@ -28,8 +28,9 @@ int main(void)
 			f1_part2 = f1 % 1000000000;
 			f2_part1 = f2 / 1000000000;
 			f2_part2 = f2 % 1000000000;
-			f12_part1 = f1_part1 + f2_part1;
-			f12_part2 = f1_part2 + f2_part2;
+			excess = (f1_part2 + f2_part2) / 1000000000;
+			f12_part2 = (f1_part2 + f2_part2) - (excess * 1000000000);
+			f12_part1 = (f1_part1 + f2_part1) + excess;
 
 			printf(", %lu%lu", f12_part1, f12_part2);
 			
