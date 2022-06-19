@@ -21,15 +21,13 @@ int main(void)
 			f2 = f2 + f1;
 			f1 = f2 - f1;
 			printf("%lu, ", f2);
-		}
-
-		f1_part1 = f1 / 1000000000;
-		f1_part2 = f1 % 1000000000;
-		f2_part1 = f2 / 1000000000;
-		f2_part2 = f2 % 1000000000;
-
+		}			
 		else if (n >= 93)
 		{
+			f1_part1 = f1 / 1000000000;
+			f1_part2 = f1 % 1000000000;
+			f2_part1 = f2 / 1000000000;
+			f2_part2 = f2 % 1000000000;
 			f12_part1 = f1_part1 + f2_part1;
 			f12_part2 = f1_part2 + f2_part2;
 
