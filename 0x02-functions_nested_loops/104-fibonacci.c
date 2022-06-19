@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	unsigned long int f1 = 0;
-	unsigned long int f2 = 1;
+	unsigned long long  f1 = 0;
+	unsigned long long  f2 = 1;
 	int n;
+	
 
 	for (n = 0; n <= 98; n++)
 	{
@@ -18,13 +19,13 @@ int main(void)
 		{
 			f2 = f2 + f1;
 			f1 = f2 - f1;
-			printf("%lu, ", f2);
+			printf("%llu, ", f2);
 		}
 		else if (n == 98)
 		{
 			f2 = f2 + f1;
 			f1 = f2 - f1;
-			printf("%lu", f2);
+			printf("%llu", f2);
 		}
 	}
 	printf("\n");
