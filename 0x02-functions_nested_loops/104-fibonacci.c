@@ -39,6 +39,11 @@ int main(void)
 		f2_part1 = f12_part1;
 		f2_part2 = f12_part2;
 
+		if (n = 97)
+		{
+			printf("%lu%lu", f12_part1, f12_part2);
+		}
+
 	}
 
 	printf("\n");
