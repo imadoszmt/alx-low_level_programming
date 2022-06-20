@@ -26,8 +26,10 @@ int main(void)
 		f2_part1 = f2 / 1000000000;
 		f2_part2 = f2 % 1000000000;
 
-	for (n = 92; n <= 96; n++)
+	for (n = 92; n <= 97; n++)
 	{
+		if (n <= 96)
+		{
 		excess = (f1_part2 + f2_part2) / 1000000000;
 		f12_part2 = (f1_part2 + f2_part2) - (excess * 1000000000);
 		f12_part1 = (f1_part1 + f2_part1) + excess;
@@ -38,8 +40,8 @@ int main(void)
 		f1_part2 = f2_part2;
 		f2_part1 = f12_part1;
 		f2_part2 = f12_part2;
-
-		if (n == 97)
+		}
+		else if (n == 97)
 		{
 			printf("%lu%lu", f12_part1, f12_part2);
 		}
