@@ -26,7 +26,7 @@ int main(void)
 		f2_part1 = f2 / 1000000000;
 		f2_part2 = f2 % 1000000000;
 
-	for (n = 92; n <= 97; n++)
+	for (n = 92; n <= 96; n++)
 	{
 		excess = (f1_part2 + f2_part2) / 1000000000;
 		f12_part2 = (f1_part2 + f2_part2) - (excess * 1000000000);
