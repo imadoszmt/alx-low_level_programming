@@ -14,7 +14,7 @@ int main(void)
 	unsigned long f1_part1, f1_part2, f2_part1, f2_part2, f12_part1, f12_part2;
 
 	printf("%lu", f2);
-	for (n = 0; n <= 91; n++)
+	for (n = 1; n <= 91; n++)
 	{
 		f2 = f2 + f1;
 		f1 = f2 - f1;
