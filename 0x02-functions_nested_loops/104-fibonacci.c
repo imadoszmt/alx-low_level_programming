@@ -41,8 +41,12 @@ int main(void)
 		f2_part1 = f12_part1;
 		f2_part2 = f12_part2;
 		}
-		else if (n == 97)
+		else 
 		{
+			excess = (f1_part2 + f2_part2) / 1000000000;
+			f12_part2 = (f1_part2 + f2_part2) - (excess * 1000000000);
+			f12_part1 = (f1_part1 + f2_part1) + excess;
+
 			printf("%lu%lu", f12_part1, f12_part2);
 		}
 
