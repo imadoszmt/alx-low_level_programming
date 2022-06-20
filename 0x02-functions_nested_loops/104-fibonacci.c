@@ -32,7 +32,7 @@ int main(void)
 		f12_part2 = (f1_part2 + f2_part2) - (excess * 1000000000);
 		f12_part1 = (f1_part1 + f2_part1) + excess;
 
-		printf(", %lu%lu", f12_part1, f12_part2);
+		printf("%lu%lu, ", f12_part1, f12_part2);
 			
 		f1_part1 = f2_part1;
 		f1_part2 = f2_part2;
