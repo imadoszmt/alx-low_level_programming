@@ -28,7 +28,7 @@ int main(void)
 
 	for (n = 92; n <= 97; n++)
 	{
-		
+
 		excess = (f1_part2 + f2_part2) / 1000000000;
 		f12_part2 = (f1_part2 + f2_part2) - (excess * 1000000000);
 		f12_part1 = (f1_part1 + f2_part1) + excess;
@@ -39,8 +39,6 @@ int main(void)
 		f1_part2 = f2_part2;
 		f2_part1 = f12_part1;
 		f2_part2 = f12_part2;
-	
-						
 	}
 	printf("\n");
 	return (0);
