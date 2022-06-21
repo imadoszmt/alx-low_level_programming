@@ -6,7 +6,7 @@ include "main.h"
  * Return: 0 (Success)
  */
 
-void print(void)
+void print_numbers(void)
 {
 	char c = '0';
 	while (c <= '9')
