@@ -8,9 +8,9 @@
 
 void more_numbers(void)
 {
-	char line = 0, num;
+	char lines = 0, num;
 
-	while (line <= 9)
+	while (lines <= 9)
 	{
 		num = 0;
 
@@ -29,7 +29,7 @@ void more_numbers(void)
 			}
 		}
 		_putchar('\n');
-		line++;
+		lines++;
 	}
 
 }
