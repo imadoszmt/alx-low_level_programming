@@ -14,7 +14,6 @@ void more_numbers(void)
 	while (lines <= 9)
 	{
 		num = 0;
-
 		while (num <= 14)
 		{
 			if (num <= 9)
