@@ -11,8 +11,8 @@ void print(void)
 	char c = '0';
 	while (c <= '9')
 	{
-		_putchar(c);
+		_putchar(c + '0');
 		c++;
 	}
-	return (0);
+	_putchar('\n');
 }
