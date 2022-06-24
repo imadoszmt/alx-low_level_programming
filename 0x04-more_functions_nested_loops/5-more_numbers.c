@@ -28,7 +28,7 @@ void more_numbers(void)
 			}
 			num++;
 		}
-		_putchar('\n');
 		lines++;
+		_putchar('\n');
 	}
 }
