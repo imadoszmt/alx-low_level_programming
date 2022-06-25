@@ -3,7 +3,7 @@
 /**
  * print_square.c - Print a square.
  * @size: Parameter type integer.
- * Return: Void
+ * Return: Void.
  */
 
 void print_square(int size)
@@ -16,6 +16,7 @@ void print_square(int size)
 		while (nline < size)
 		{
 			nhash = 0;
+
 			while (nhash < size)
 			{
 				_putchar('#');
