@@ -19,11 +19,11 @@ int main(void)
 		{
 			printf("%s", fizz);
 		}
-	       		if (n % 5 == 0)
+			if (n % 5 == 0)
 			{
 				printf("%s", buzz);
 			}
-		else if ((n % 3 != 0) && (n % 5!= 0))
+		else if ((n % 3 != 0) && (n % 5 != 0))
 		{
 			printf("%d", n);
 		}
