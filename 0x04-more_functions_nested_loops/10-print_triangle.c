@@ -9,29 +9,35 @@
 void print_triangle(int size)
 {
 	int nline, nhash, nspace;
-
-	nline = 0;
-
-	while (nline < size)
+	
+	if (size > 0)
 	{
-		nspace = 1;
+		nline = 0;
 
-		while (nspace < size - nline)
+		while (nline < size)
 		{
-			_putchar(' ');
-			nspace++;
+			nspace = 1;
+
+			while (nspace < size - nline)
+			{
+				_putchar(' ');
+				nspace++;
+			}
+
+			nhash = 0;
+
+			while (nhash <= nline)
+			{
+				_putchar('#');
+				nhash++;
+			}
+
 		}
-
-		nhash = 0;
-
-		while (nhash <= nline)
-		{
-			_putchar('#');
-			nspace++;
-		}
-
+		_putchar('\n');
+		nline++;
 	}
-	_putchar('\n');
-	nline++;
-
+	else
+	{
+		_putchar('\n');
+	}
 }
