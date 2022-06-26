@@ -7,7 +7,7 @@
 void more_numbers(void)
 {
 	int lines;
-	char num;
+	int num;
 
 	lines = 0;
 	while (lines <= 9)
@@ -17,12 +17,12 @@ void more_numbers(void)
 		{
 			if (num <= 9)
 			{
-				_putchar('0' + num);
+				_putchar(48 + num);
 			}
 			else if (num > 9)
 			{
-				_putchar('0' + (num / 10));
-				_putchar('0' + (num % 10));
+				_putchar(48 + (num / 10));
+				_putchar(48 + (num % 10));
 			}
 			num++;
 		}
