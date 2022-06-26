@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_triangle - Printing a traingle.
- * @size: Parameter type integer.
+ * print_triangle - Printing a triangle.
+ * @size: Size of triangle.
+ *
  * Return: Void.
  */
 
