@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * print_triangle - Printing a triangle.
  * @size: size of triangle.
  *
  */
+
 void print_triangle(int size)
 {
 	int nline, nhash, nspace;
@@ -31,6 +33,5 @@ void print_triangle(int size)
 		}
 	}
 	else
-
 		_putchar('\n');
 }
