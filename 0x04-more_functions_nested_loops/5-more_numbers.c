@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 10 times from 0 to 14.
+ * more_numbers - prints 10 times from 0 to 14
  */
 
 void more_numbers(void)
 {
-	int lines;
-	int num;
+	int lines, num;
 
 	lines = 0;
 	while (lines <= 9)
