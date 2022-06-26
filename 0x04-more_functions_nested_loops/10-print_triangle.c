@@ -9,7 +9,7 @@
 void print_triangle(int size)
 {
 	int nline, nhash, nspace;
-	
+
 	if (size > 0)
 	{
 		nline = 0;
@@ -32,9 +32,9 @@ void print_triangle(int size)
 				nhash++;
 			}
 
-		}
 		_putchar('\n');
 		nline++;
+		}
 	}
 	else
 	{
