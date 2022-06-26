@@ -1,14 +1,14 @@
 #include "main.h"
-
 /**
  * print_triangle - Printing a triangle.
  * @size: Size of triangle.
  *
  */
-
 void print_triangle(int size)
 {
-	int nline, nhash, nspace;
+	int nline; 
+	int nhash; 
+	int nspace;
 
 	if (size > 0)
 	{
