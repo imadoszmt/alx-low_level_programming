@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	int factor, lpfactor;
-	unsigned long long num, num1;
+	long factor, lpfactor, num;
 
 	num = 612852475143;
 	factor = 2;
