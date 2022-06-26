@@ -6,9 +6,7 @@
  */
 void print_triangle(int size)
 {
-	int nline; 
-	int nhash; 
-	int nspace;
+	int nline, nhash, nspace;
 
 	if (size > 0)
 	{
@@ -33,7 +31,6 @@ void print_triangle(int size)
 		}
 	}
 	else
-	{
+
 		_putchar('\n');
-	}
 }
