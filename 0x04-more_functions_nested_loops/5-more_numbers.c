@@ -16,9 +16,8 @@ void more_numbers(void)
 		while (num <= 14)
 		{
 			if (num <= 9)
-			{
 				_putchar(48 + num);
-			}
+
 			else if (num > 9)
 			{
 				_putchar(48 + (num / 10));
