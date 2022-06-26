@@ -25,6 +25,6 @@ int main(void)
 		if (factor >= lpfactor)
 			lpfactor = factor;
 	}
-	printf("%ld", lpfactor);
+	printf("%ld\n", lpfactor);
 	return (0);
 }
