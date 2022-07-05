@@ -6,7 +6,6 @@
  *
  */
 
-int _strlen(char *s);
 void print_rev(char *s)
 {
 	int i;
@@ -16,4 +15,13 @@ void print_rev(char *s)
 		_putchar(s[i]);
 	}
 	_putchar('\n');
+}
+
+int _strlen(char *s)
+{
+	int count;
+
+	for (count = 0; s[count] != '\0';)
+		count++;
+	return (count);
 }
