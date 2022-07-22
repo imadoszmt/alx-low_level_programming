@@ -23,9 +23,10 @@ void more_numbers(void)
 				_putchar(48 + (num / 10));
 				_putchar(48 + (num % 10));
 			}
-			num++;
+		num++;
 		}
-		lines++;
-		_putchar('\n');
+	lines++;
+	_putchar('\n');
 	}
+_putchar('\n');
 }
