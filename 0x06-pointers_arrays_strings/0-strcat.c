@@ -10,13 +10,31 @@
 
 char *_strcat(char *dest, char *src)
 {
-	while (*dest)
+	for (*dest) 
 	{
 		_putchar(*dest);
 		dest++;
 		break;
-		_putchar(*src);
-		*src++;
+		if (src != '\0')
+		{
+			_putchar(*src);
+			src++;
+		}
 	}
 	return (*dest);
+}
+/**
+ * _strlen - return the lenght of a string.
+ * @s: pointer to a character.
+ *
+ * Return: lenght (integer).
+ */
+
+int _strlen(char *s)
+{
+	int count;
+
+	for (count = 0; s[count] != '\0';)
+		count++;
+	return (count);
 }
