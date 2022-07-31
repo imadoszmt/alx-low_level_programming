@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 			i++;
 		}
 	}
-	return (*dest);
+	return (dest);
 }
 /**
  * _strlen - return the lenght of a string.
