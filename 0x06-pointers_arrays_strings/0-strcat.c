@@ -10,12 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
-
-	while (src != '\0')
-	{
-		_strcpy(dest, src)
-	}
+	_strcpy(dest, src);
 	return (dest);
 }
 /**
