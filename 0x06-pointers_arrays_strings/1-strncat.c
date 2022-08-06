@@ -11,11 +11,12 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int j;
+	int i, j;
 
+	i = _strlen(dest);
 	for (j = 0; j < n; j++)
 	{
-		_strcpy(&dest[_strlen(dest)], &src[j]);
+		dest[i] = src[j];
 	}
 	dest[_strlen(dest) + 1] = '\0';
 
@@ -36,22 +37,4 @@ int _strlen(char *s)
 		count++;
 	return (count);
 }
-/**
- * _strcpy - a function that copies string from "src" to "dest".
- * @dest: pointer to characters
- * @src: pointer to chracters.
- *
- * Return: character.
- */
 
-char *_strcpy(char *dest, char *src)
-{
-	int i;
-
-	for (i = 0; i < _strlen(src) + 1; i++)
-	{
-		dest[i] = src[i];
-	}
-
-	return (dest);
-}
