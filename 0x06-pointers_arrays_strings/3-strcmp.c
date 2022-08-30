@@ -10,19 +10,23 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, j;
+	int i, j, result;
 
-	for (i, j; s[i] != '\0' || s[j] != '\0'; i++, j++)
+	for (i = 0, j = 0; s1[i] != '\0' || s2[j] != '\0'; i++, j++)
 	{
-		if (s[i] > s[j])
+		result = 0;
+		if (s1[i] > s2[j])
 		{
-			return (15);
+			result = 15;
 		}
-		else if (s[j] < s[j])
+		else if (s1[j] < s2[j])
 		{
-			return (-15);
+			result = -15;
 		}
 		else
-			return (0);
+		{
+			result = 0;
+		}
 	}
+	return (result);
 }
