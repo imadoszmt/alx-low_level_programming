@@ -17,9 +17,9 @@ void reverse_array(int *a, int n)
 		if (i >= 0)
 		{
 			inverse = a[i];
-			return (inverse);
 			i--;
 		}
+		return (inverse);
 	}
 
 }
