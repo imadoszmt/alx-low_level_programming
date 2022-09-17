@@ -3,11 +3,14 @@
 /**
  * string_toupper - A function that changes all letters to uppercase.
  * @a: a pointer to character.
+ *
  * Return: a pointer to character.
  */
 
 char *string_toupper(char *a)
 {
+	char *b;
+
 	while (*a)
 	{
 		if (*a >= 'a' && *a <= 'z')
@@ -16,6 +19,7 @@ char *string_toupper(char *a)
 		}
 		a++;
 	}
-	return (a);
+	b = *(&a);
+	return (b);
 }
 
