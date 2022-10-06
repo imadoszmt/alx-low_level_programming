@@ -10,7 +10,7 @@ char *rot13(char *a)
 	int i;
 
 	i = 0;
-	while (a[i])
+	while (a[i] != '\0')
 	{
 		if ((a[i] >= 'a' && a[i] <= 'm') || (a[i] >= 'A' && a[i] <= 'M'))
 		{
