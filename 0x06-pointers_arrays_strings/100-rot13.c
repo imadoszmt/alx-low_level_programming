@@ -2,6 +2,7 @@
  * rot13 - A function that encodes a string into "rot13"
  * (rotating letter by 13 places)
  * @a: a pointer to a string.
+ *
  * Return: a pointer to a string.
  */
 
