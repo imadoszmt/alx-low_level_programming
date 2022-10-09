@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * rot13 - A function that encodes a string into "rot13"
  * (rotating letter by 13 places)
