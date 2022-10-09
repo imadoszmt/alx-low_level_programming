@@ -9,8 +9,6 @@
 
 void print_number(int n)
 {
-	void print_number(int n)
-{
 	unsigned int m, d;
 
 	d = 1;
@@ -30,5 +28,4 @@ void print_number(int n)
 	{
 		_putchar('0' + (n / d) % 10);
 	}
-}
 }
