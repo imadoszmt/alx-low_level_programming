@@ -11,8 +11,9 @@ void print_number(int n)
 {
 	void print_number(int n)
 {
-	unsigned int m, d = 1;
+	unsigned int m, d;
 
+	d = 1;
 	if (n < 0)
 	{
 		n = -n;
