@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - a function that prints "98".
+ *
+ * Return: integer.
+ */
+
 int main(void)
 {
 	int n;
