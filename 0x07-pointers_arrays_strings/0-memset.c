@@ -11,7 +11,8 @@
 char *_memset(char *s, char b, unsigned n)
 {
 	unsigned char c = (unsigned char) b;
-	unsigned int i;
+	unsigned i;
+
 	for (i = 0; i < n; i++)
 	{
 		*(s + i) = c;
