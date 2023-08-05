@@ -6,6 +6,8 @@
  * @s: a pointer to the block of memory to be filled.
  * @b: value that fills the block of memory.
  * @n: number of bytes to be filled.
+ *
+ * Return: a pointer to the first character of "s".
  */
 
 char *_memset(char *s, char b, unsigned int n)
