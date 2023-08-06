@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - A function that copies 'n' bytes of memory block 
+ * _memcpy - A function that copies 'n' bytes of memory block
  * from "src" to "dest".
  * @dest: pointer to char represent the distination of copied block.
  * @src: pointer to char,it is the source from where memory is copied
