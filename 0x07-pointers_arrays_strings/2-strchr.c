@@ -7,12 +7,12 @@
  * @c: the searched character.
  *
  * Return: if 'c' is found return a pointer to the first occurrence
- * of the character.
+ * of the character, else return "NULL".
  */
 
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	while (*s)
 	{
 		if (*s == c)
 		{
