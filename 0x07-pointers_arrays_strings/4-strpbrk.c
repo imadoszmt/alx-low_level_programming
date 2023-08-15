@@ -4,7 +4,7 @@
  * _strpbrk - A function that searches the first occurence of any
  * character from "accept" string within 's' string.
  * @s: A pointer to the null-terminating string we want to search.
- * @accept: A pointer to the null-terminating string containing the 
+ * @accept: A pointer to the null-terminating string containing the
  * set of character we want to search for.
  *
  * Return: if found return the first occurrence of any character from
@@ -29,5 +29,5 @@ char *_strpbrk(char *s, char *accept)
 			accept = accept_begin;
 		}
 	}
-Return (NULL);	
-}	
+return (NULL);
+}
