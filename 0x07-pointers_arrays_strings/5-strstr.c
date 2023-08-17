@@ -13,9 +13,10 @@ char *_strstr(char *haystack, char *needle)
 {
 	while (*haystack != '\0')
 	{
-		char *keeper = haystack;
+		char *keeper;
 
 		haystack = _strpbrk(haystack, needle);
+		keeper = haystack;
 		while ((*haystack == *needle) && (*needle != '\0'))
 		{
 			haystack++;
