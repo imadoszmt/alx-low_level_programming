@@ -12,14 +12,14 @@ void _print_rev_recursion(char *s)
 {
 	int lenght = _strlen(s);
 
-	if (lenght > 0)
+	if (lenght <= 1)
 	{
-		_putchar (*s + lenght);
-		_print_rev_recursion(s);
-		lenght--;
+		_putchar (*s);
+		return;
 	}
-	else
-		_putchar ('\n');
+	_putchar(*s + (lenght - 1));
+	_print_rev_recursion(_strncpy(s, s, (lenght - 1)));
+	_putchar ('\n');
 }
 
 /**
@@ -35,4 +35,28 @@ int _strlen(char *s)
 	for (count = 0; s[count] != '\0';)
 		count++;
 	return (count);
+}
+
+/**
+ * _strncpy - A  function that copies 'n' bytes from "src" to "dest".
+ * @dest: pointer to char (destination of copied string).
+ * @src: pointer to char (from where string copied).
+ * @n: amount of copied bytes (characters).
+ *
+ * Return: pointer to string copied function.
+ */
+
+char *_strncpy(char *dest, char *src, int n)
+{
+	int i;
+
+	for (i = 0; i < n && src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	for ( ; i < n; i++)
+	{
+		dest[i] = '\0';
+	}
+	return (dest);
 }
