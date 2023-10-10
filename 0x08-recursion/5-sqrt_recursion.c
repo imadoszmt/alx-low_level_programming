@@ -6,7 +6,7 @@ int checking_func(int num, int r);
  * of a number recursively using "Newtoon- Raphson" method.
  * @n: The number intended for calculation.
  *
- * Return: return "-1" if "n" does not have a natural square root, 
+ * Return: return "-1" if "n" does not have a natural square root,
  * otherwise return the square root of "n".
  */
 
@@ -25,12 +25,12 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * checking_func - A function that check if the number has a 
+ * checking_func - A function that check if the number has a
  * natural square-root or not.
  * @num: the number meant for square-root calculation.
  * @r: the root of the number "num".
  *
- * Return: return "-1" if the root doesn't exist, other the root or 
+ * Return: return "-1" if the root doesn't exist, other the root or
  * result if the root exist.
  */
 
