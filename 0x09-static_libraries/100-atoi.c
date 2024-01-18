@@ -21,7 +21,7 @@ int _atoi(char *s)
 			sign = -sign;
 
 		}
-		
+
 	}
 	for (; (*s >= '0' && *s <= '9'); *s++)
 	{
