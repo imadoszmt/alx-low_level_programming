@@ -10,6 +10,7 @@
 
 int main(void)
 {
-	_putchar("%s\n", __FILE__);
+	_putchar(__FILE__);
+	_putchar('\n');
 	return (0);
 }
