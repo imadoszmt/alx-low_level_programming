@@ -8,6 +8,7 @@
  * @age: variable of type "float".
  * @owner: a pointer to a char.
  *
+ * Return: Void.
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
