@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include "dog.h"
 /**
  * init_dog - a function that initialize  "struct dog".
  * @d: a pointer to a struct.
