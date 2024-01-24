@@ -1,6 +1,3 @@
-#ifndef DOG_H
-#define DOG_H
-
 /**
  * struct dog - a new data type structure with the multiple atributtes
  * @name: first memeber of the struct.
@@ -16,6 +13,4 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
-
-#endif
+};
