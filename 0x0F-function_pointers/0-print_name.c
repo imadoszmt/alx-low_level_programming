@@ -3,7 +3,7 @@
 /**
  * print_name - a function that print a name.
  * @name: a pointer to a string.
- * @(*f): a pointer to a function.
+ * @f: a pointer to a function.
  *
  * Description: This is a function that print a name and takes a pointer to a
  * string which is the name as first argument and the second one is a pointer
@@ -13,5 +13,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
+	if (f)
+	{
+		f(name);
+	}
 }
